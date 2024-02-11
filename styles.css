@@ -1,0 +1,25 @@
+body {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url('background_vc.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.column {
+  display: inline-block;
+  /* or use 'block' for full width */
+  vertical-align: top;
+  /* align columns to the top */
+  margin-right: 20px;
+  /* optional margin between columns */
+}
